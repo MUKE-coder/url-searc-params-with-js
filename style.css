@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bookings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+  padding: 5rem;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.container {
+  min-width: 900px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background-color: azure;
+  border: 1px solid red;
+  padding: 3rem;
+}
